@@ -22,12 +22,13 @@ public class sort
      {
          for(int j=0;j<num.length-i-1;j++) 
 	 {
-        	 if(num[j]>num[j+1]) {
+        	 if(num[j]>num[j+1]) 
+		 {
         		 int temp=0;
         		 temp=num[j];
         		 num[j]=num[j+1];
         		 num[j+1]=temp;
-        	 }
+          }
          }
      }
         for(int k =0;k<num.length;k++) 
