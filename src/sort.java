@@ -15,10 +15,13 @@ public class sort
     }
 	 System.out.println("Your choice: ");
      String s= in.next();
-     switch(s) {
+     switch(s) 
+     {
      case "ascending" : 	 
-     for(int i =0;i<num.length-1;i++) {
-         for(int j=0;j<num.length-i-1;j++) {
+     for(int i =0;i<num.length-1;i++) 
+     {
+         for(int j=0;j<num.length-i-1;j++) 
+	 {
         	 if(num[j]>num[j+1]) {
         		 int temp=0;
         		 temp=num[j];
@@ -27,14 +30,18 @@ public class sort
         	 }
          }
      }
-        for(int k =0;k<num.length;k++) {
+        for(int k =0;k<num.length;k++) 
+	{
             System.out.println(num[k]); 
         }
       break;
      case "descending":     
-    	 for(int i =0;i<num.length-1;i++) {
-         for(int j=0;j<num.length-i-1;j++) {
-        	 if(num[j]<num[j+1]) {
+    	 for(int i =0;i<num.length-1;i++) 
+	 {
+         for(int j=0;j<num.length-i-1;j++) 
+	 {
+        	 if(num[j]<num[j+1]) 
+		 {
         		 int temp=0;
         		 temp=num[j];
         		 num[j]=num[j+1]; 
@@ -42,7 +49,8 @@ public class sort
         	 }
          }
      }
-        for(int k =0;k<num.length;k++) {
+        for(int k =0;k<num.length;k++) 
+	{
             System.out.println(num[k]); 
         }
         break;
