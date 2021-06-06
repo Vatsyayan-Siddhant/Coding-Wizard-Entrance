@@ -6,7 +6,7 @@ public class min_swaps
 	{		
 	  int c = 0;
 	  Scanner sc = new Scanner(System.in);
-	  System.out.println("Enter number of elements you want to enter: ");
+	  System.out.println("Input number of elements : ");
 	  int x = sc.nextInt();
       int[] num = new int [x];
       for(int i =0; i<num.length ; i++)
