@@ -15,6 +15,9 @@ public class inversion
     		 }
     	 }
      }
-     System.out.println("Number of inversion count: "+count);
+		if(count>0)
+                System.out.println("Number of inversion count: "+count);
+		else
+                System.out.println(0);
 	}
 }
