@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class maximum_no
+public class q6
 {
 	public static void main(String []args)  
 	{  
