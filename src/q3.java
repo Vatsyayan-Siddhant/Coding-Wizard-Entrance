@@ -1,5 +1,5 @@
 import java.util.*;
-class series
+class q3
 {
     public static void main(String [] args)
     { 
