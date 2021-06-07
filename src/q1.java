@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class min_swaps
+public class q1
 {
 
 	public static void main(String[] args) 
